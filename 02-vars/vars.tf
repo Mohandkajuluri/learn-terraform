@@ -5,8 +5,8 @@ variable "sample" {
    value = "var.sample1"
  }
 variable "fruits" {
-  default = ["apple,banana,mango"]
+  default = ["apple", "banana", "mango"]
 }
 output "fruit_first_fruit" {
-  value = "var.fruits[0]"
+  value = "var.fruits"
 }

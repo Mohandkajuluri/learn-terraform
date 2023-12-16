@@ -1,8 +1,8 @@
 variable "sample" {
   default = "hello"
 }
- output "sample1" {
-   value = var.sample1
+ output "sample" {
+   value = var.sample
  }
 variable "fruits" {
   default = ["apple", "banana", "mango"]
